@@ -1,33 +1,18 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 lang: en-US
-title: My Awesome Site
-email:
+title: Anthony's Commonplace
+email: me@anthonyhinton.com
 description:
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
-  name:
+  name: Anthony Hinton
   twitter:
   picture:
 twitter_username:
-github_username:
+github_username: alhint
 logo: # path of site logo, e.g. "/assets/images/logo.png"
 search: # true, false (default)
-search_full_content: false # true, false (default)
+search_full_content: # true, false (default)
 search_provider: # lunr (default), algolia
 algolia:
   application_id: # YOUR_APPLICATION_ID
@@ -47,8 +32,8 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 10
-paginate_path: /page:num/
+paginate: #10
+paginate_path: #/page:num/
 
 # Exclude from processing.
 exclude:
@@ -82,4 +67,3 @@ defaults:
       type: posts
     values:
       layout: post
-      read_time: true
