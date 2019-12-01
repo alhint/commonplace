@@ -14,6 +14,7 @@ ACTION ITEMS------------------------------------------------------------------
     - create an "about me" home page
     - create JSON resume
       - look into hosting resume theme
+      - https://github.com/jsonresume/resume-cli
 
   - LINKS
     - make sure links (e.g., Linkedin) opens page in new tab
@@ -26,9 +27,10 @@ ACTION ITEMS------------------------------------------------------------------
 
   - IMAGES
     - see https://unsplash.com/
+    - create og_image:
+        - see --> https://mmistakes.github.io/minimal-mistakes/docs/configuration/#open-graph-default-image
     - include:
       - about page (find new photo; "fun" and "relaxed")
-      - category pages
 
   - 404
     - update 404 page
@@ -46,6 +48,7 @@ ACTION ITEMS------------------------------------------------------------------
       - jekyll-sitemap
 
   - GOOGLE ANALYTICS
+    - https://mmistakes.github.io/minimal-mistakes/docs/configuration/#analytics
     - add tracking for source url clicks
     - https://thoughtbot.com/blog/external-posts-in-jekyll
 
