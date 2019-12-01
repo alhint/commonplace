@@ -1,6 +1,7 @@
 ---
-title: Curriculum Vitæ
+title: Resume
 layout: cv
+permalink: "/resume/"
 # actions:
 #   - label: "Download as PDF"
 #     icon: pdf
