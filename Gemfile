@@ -4,5 +4,4 @@ group :jekyll_plugins do
 end
 
 gem "jekyll-octicons"
-
 gem "jekyll-include-cache"

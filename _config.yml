@@ -13,15 +13,15 @@
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-github: [metadata]
+github                   : [metadata]
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Anthony Hinton"
 title_separator          : "-"
-subtitle                 : "Subtitle here" # site tagline that appears below site title in masthead
+subtitle                 : #"Subtitle here" # site tagline that appears below site title in masthead
 name                     : "Anthony Hinton"
-description              : "Description here."
+description              : #"Description here."
 url                      : https://anthonyhinton.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "alhint/alhint.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -85,7 +85,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username: "alhint"
+  username              : "alhint"
 facebook:
   username               :
   app_id                 :
@@ -101,7 +101,7 @@ social:
 # Analytics
 analytics:
   provider               : #false # false (default), "google", "google-universal", "custom"
-  google:
+  google                 :
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
@@ -136,24 +136,30 @@ author:
 # Site Footer
 footer:
   links:
-    - label               : "Twitter"
-      icon                : "fab fa-fw fa-twitter-square"
-       url                :
-    - label               : "Facebook"
-      icon                : "fab fa-fw fa-facebook-square"
-       url                :
+    - label               : "LinkedIn"
+      icon                : "fab fa-fw fa-linkedin"
+      url                 : "https://www.linkedin.com/in/hintonanthony"
+    - label               : "GoodReads"
+      icon                : "fab fa-fw fa-goodreads"
+      url                 : "https://www.goodreads.com/alhint"
     - label               : "GitHub"
       icon                : "fab fa-fw fa-github"
-       url                :
-    - label               : "GitLab"
-      icon                : "fab fa-fw fa-gitlab"
-       url                :
-    - label               : "Bitbucket"
-      icon                : "fab fa-fw fa-bitbucket"
-       url                :
-    - label               : "Instagram"
-      icon                : "fab fa-fw fa-instagram"
-       url                :
+      url                 : "https://github.com/alhint"
+    - label               : #"Twitter"
+      icon                : #"fab fa-fw fa-twitter-square"
+      url                 :
+    - label               : #"Facebook"
+      icon                : #"fab fa-fw fa-facebook-square"
+      url                 :
+    - label               : #"GitLab"
+      icon                : #"fab fa-fw fa-gitlab"
+      url                 :
+    - label               : #"Bitbucket"
+      icon                : #"fab fa-fw fa-bitbucket"
+      url                 :
+    - label               : #"Instagram"
+      icon                : #"fab fa-fw fa-instagram"
+      url                 :
 
 
 # Reading Files
