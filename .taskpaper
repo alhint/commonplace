@@ -1,0 +1,41 @@
+
+------------------------------------------------------------------------------
+ACTION ITEMS------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+GENERAL:
+  ☐ Fix build issue
+    ☐ see -> https://mademistakes.com/work/minimal-mistakes-jekyll-theme/
+    ☐ see -> https://jekyllrb.com/docs/front-matter/
+  ☐ Add images
+    ☐ see -> https://unsplash.com/
+    ☐ home page (index)
+    ☐ about page ("fun" and "relaxed")
+    ☐ category page
+  ☐ Create custom 404 page
+  ☐ Set up search
+  ☐ Update gemfile
+    ☐ look into whether plugins need to be listed in gemfile
+    ☐ look into whether they should be inside the plugin-in list in gemfile
+  ☐ Configure plugins
+    ☐ jekyll-seo-tag
+    ☐ jekyll-feed
+    ☐ jekyll-paginate
+    ☐ jekyll-sitemap
+  ☐ Set up Google Analytics
+    ☐ Add tracking for source url clicks (see -> https://thoughtbot.com/blog/external-posts-in-jekyll)
+  ☐ Look into affiliate marketing on Amazon
+  ☐ Consider addin the sass elements in this sample config -> https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/docs/_config.yml
+  ☐ Brand Commonplace and purchase new domain
+  ☐ Establish workflow using Prose
+  ☐ Consider installing  Sass or SCSS linter for Atom
+  ☐ Research what people can do with the "subscribe" button
+
+REMINDERS:
+  ☐ use to resolve sass error -> LC_ALL="en_US.UTF-8"
+  ☐ github-pages gem dependencies -> https://pages.github.com/versions/
+  ☐ basically basic repo -> https://github.com/mmistakes/jekyll-theme-basically-basic#layout-posts
+  ☐ tag html -> {% for tag in page.tags %}
+                {% capture tag_name %}#{{ tag }}{% endcapture %}
+                  <a href="/tags/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+                {% endfor %}
