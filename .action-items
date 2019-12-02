@@ -10,30 +10,26 @@ ACTION ITEMS------------------------------------------------------------------
 --PRIORITY--------------------------------------------------------------------
 ------------------------------------------------------------------------------
 
-  - CONTENT
-    - create an "about me" home page
-    - create JSON resume
-      - look into hosting resume theme
-      - https://github.com/jsonresume/resume-cli
-
-  - LINKS
-    - make sure links (e.g., Linkedin) opens page in new tab
-
   - BUILD ISSUE
     - fix build issue with using terminal in atom
     - see:
       - https://mademistakes.com/work/minimal-mistakes-jekyll-theme/
       - https://jekyllrb.com/docs/front-matter/
 
+  - ICONS
+    - keep tag icon attached to tag so that line breaks don’t separate.
+
   - IMAGES
     - see https://unsplash.com/
-    - create og_image:
-        - see --> https://mmistakes.github.io/minimal-mistakes/docs/configuration/#open-graph-default-image
     - include:
       - about page (find new photo; "fun" and "relaxed")
+      - category pages
 
   - 404
     - update 404 page
+
+  - POST SORTING
+    - change post sort behavior on category pages to sort by creation date
 
   - SEARCH
     - set up search
@@ -48,12 +44,15 @@ ACTION ITEMS------------------------------------------------------------------
       - jekyll-sitemap
 
   - GOOGLE ANALYTICS
-    - https://mmistakes.github.io/minimal-mistakes/docs/configuration/#analytics
     - add tracking for source url clicks
     - https://thoughtbot.com/blog/external-posts-in-jekyll
 
   - AFFILIATE MARKETING
     - look into affiliate marketing on Amazon
+
+  - SASS
+    - see if you need to add the sass elements in this sample config
+      - https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/docs/_config.yml
 
 ------------------------------------------------------------------------------
 --OTHER-----------------------------------------------------------------------
@@ -88,3 +87,9 @@ ACTION ITEMS------------------------------------------------------------------
 
   - basically basic repo:
     - https://github.com/mmistakes/jekyll-theme-basically-basic#layout-posts
+
+  - tag html:
+      - {% for tag in page.tags %}
+        {% capture tag_name %}#{{ tag }}{% endcapture %}
+          <a href="/tags/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+        {% endfor %}
