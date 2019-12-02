@@ -2,7 +2,6 @@
 title: "Rules for when to sleep"
 created_at: "2016-09-04"
 tags:
-  - health
   - sleep
   - book
 attribution: "Donald Sull & Kathleen Eisenhardt"

@@ -1,7 +1,6 @@
 ---
 layout: single
 permalink: "/about/"
-nav: 1
 title: "About"
 sub_title: "Subtitle"
 introduction: #""

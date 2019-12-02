@@ -4,11 +4,12 @@ ACTION ITEMS------------------------------------------------------------------
 ------------------------------------------------------------------------------
 
 GENERAL:
-  ☐ Fix build issue
+  ☐ Fix build errors
     ☐ see -> https://mademistakes.com/work/minimal-mistakes-jekyll-theme/
     ☐ see -> https://jekyllrb.com/docs/front-matter/
   ☐ Add images
     ☐ see -> https://unsplash.com/
+    ☐ make responsive -> https://alistapart.com/article/responsive-images-in-practice/
     ☐ home page (index)
     ☐ about page ("fun" and "relaxed")
     ☐ category page

@@ -9,7 +9,6 @@
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-github: [metadata]
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
@@ -224,7 +223,7 @@ sass:
 
 # Outputting
 permalink                 : /:categories/:title/
-paginate                  : 5 # amount of posts to show
+paginate                  : 10 # amount of posts to show
 paginate_path             : /page:num/
 timezone                  : # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -285,8 +284,17 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
+  -
+    scope:
+      path: "_pages/categories"
+      type: "pages"
+    values:
+      layout: "category"
+      entries_layout: "list"
+      sidebar:
+        nav: "side"
+  -
+    scope:
       path: "_posts"
       type: "posts"
     values:
@@ -297,3 +305,41 @@ defaults:
       comments: # true
       share: #true
       related: #true
+      sidebar:
+        nav: "side"
+  -
+    scope:
+      path: "_posts/career"
+      type: "posts"
+    values:
+      category: "career"
+  -
+    scope:
+      path: "_posts/health"
+      type: "posts"
+    values:
+      category: "health"
+  -
+    scope:
+      path: "_posts/well_being"
+      type: "posts"
+    values:
+      category: "well_being"
+  -
+    scope:
+      path: "_posts/product"
+      type: "posts"
+    values:
+      category: "product"
+  -
+    scope:
+      path: "_posts/technology"
+      type: "posts"
+    values:
+      category: "technology"
+  -
+    scope:
+      path: "_posts/performance"
+      type: "posts"
+    values:
+      category: "performance"

@@ -2,7 +2,6 @@
 title: "Who cares about your GPA?"
 date: "2016-01-16"
 tags:
-  - career
   - tim-ferriss
   - podcast
 attribution: "Chris Sacca"

@@ -1,7 +1,6 @@
 ---
 taxonomy: product
 permalink: "/:basename/"
-entries_layout: list
 title: "Product"
 sub_title: "Subtitle"
 introduction: "Explain what this posts in this category will focus on."
