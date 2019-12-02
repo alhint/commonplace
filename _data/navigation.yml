@@ -1,24 +1,24 @@
 # main links
 main:
-  - title: "Career"
-    url: /career/
-  - title: "Health"
-    url: /health/
-  - title: "Product"
-    url: /product/
-  - title: "Technology"
-    url: /technology/
-  - title: "Well Being"
-    url: /well_being/
+  - title: "About"
+    url: "/about/"
+  - title: "Tag Archive"
+    url: "/tags/"
+  - title: "Personal Website"
+    url: "https://anthonyhinton.com"
 # - title: "Sitemap"
 #   url: /sitemap/
 
 side:
-  - title: "Navigation"
+  - title: "Categories"
     children:
-    - title: "Home"
-      url: ""
-    - title: "About"
-      url: "/about/"
-    - title: "Tag Archive"
-      url: "/tags/"
+      - title: "Career"
+        url: /career/
+      - title: "Health"
+        url: /health/
+      - title: "Product"
+        url: /product/
+      - title: "Technology"
+        url: /technology/
+      - title: "Well Being"
+        url: /well_being/
