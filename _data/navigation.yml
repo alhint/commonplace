@@ -1,10 +1,24 @@
 # main links
 main:
-  - title: "Resume"
-    url: /resume/
-  - title: "Blog"
-    url: /blog/
-  - title: "Commonplace"
-    url: https://commonplace.anthonyhinton.com
+  - title: "Career"
+    url: /career/
+  - title: "Health"
+    url: /health/
+  - title: "Product"
+    url: /product/
+  - title: "Technology"
+    url: /technology/
+  - title: "Well Being"
+    url: /well_being/
 # - title: "Sitemap"
 #   url: /sitemap/
+
+side:
+  - title: "Navigation"
+    children:
+    - title: "Home"
+      url: ""
+    - title: "About"
+      url: "/about/"
+    - title: "Tag Archive"
+      url: "/tags/"
