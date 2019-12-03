@@ -44,6 +44,7 @@ layout: default
         {% endif %}
         {{ content }}
         <div align="right">- {{ page.attribution }}</div>
+          <!-- - {{ page.attribution }}, {{ page.source }} <a href="{{ page.source_url }}" target="_blank"> <i class="fas fa-fw fa-link" aria-hidden="true" style="color:#03a9f4;"></i> </a> -->
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
@@ -52,15 +53,15 @@ layout: default
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
         <!-- source link -->
-        {% if page.attribution %}
-          <p class="page__date"><strong><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].attribution_label | default: "Source:" }} </strong> <a href="{{ page.source_url }}" target="_blank">{{ page.source }}</a></p>
-        {% endif %}
+        <div {% if page.attribution %}
+          align="right"><p class="page__date"><strong><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].attribution_label | default: "Source:" }} </strong> <a href="{{ page.source_url }}" target="_blank">{{ page.source }}</a></p>
+        {% endif %}</div>
         <!-- created date -->
-        {% if page.last_modified_at %}
+        <div align="right">{% if page.last_modified_at %}
           <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time></p>
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
+        {% endif %}</div>
         <!-- tags -->
         {% include page__taxonomy.html %}
       </footer>
