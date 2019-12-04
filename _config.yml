@@ -321,10 +321,10 @@ defaults:
       category: "health"
   -
     scope:
-      path: "_posts/well_being"
+      path: "_posts/performance"
       type: "posts"
     values:
-      category: "well_being"
+      category: "performance"
   -
     scope:
       path: "_posts/product"
@@ -339,7 +339,7 @@ defaults:
       category: "technology"
   -
     scope:
-      path: "_posts/performance"
+      path: "_posts/well_being"
       type: "posts"
     values:
-      category: "performance"
+      category: "well_being"
