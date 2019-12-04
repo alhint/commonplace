@@ -16,6 +16,8 @@ side:
         url: /career/
       - title: "Health"
         url: /health/
+      - title: "Performance"
+        url: /performance/
       - title: "Product"
         url: /product/
       - title: "Technology"
