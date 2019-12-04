@@ -1,24 +1,30 @@
-
 ------------------------------------------------------------------------------
 ACTION ITEMS------------------------------------------------------------------
 ------------------------------------------------------------------------------
 
-- [] test
-
 GENERAL:
-  ☐ Edit layouts
-    ☐ Posts
-    ☐ Pages
-    ☐ Index
+  ☐ Create at least 2 posts in each category
+  ☐ Edit splash page (i.e., home page)
+    ☐ Compare concept to the category layout
+    ☐ Consider making the images clickable links (and removing button)
+    ☐ Consider replacing images (to make page less cluttered)
+    ☐ see -> https://unsplash.com/
+  ☐ Edit exerpt format in archive layout (e.g., homepage)
+    ☐ Ensure category (and maybe tags) are included in excerpt
+    ☐ Consider bringing source info into actual post content so it shows up in excerpt
+    ☐ Consider unique excerpt for each post
+  ☐ Reformat single layout (i.e., source, created, category, and tags)
+    ☐ Consider removing “link-icon source:” and “calendar-icon created:”
+    ☐ Change color of source link to match theme blue (#0592CA)
+  ☐ Fix category button link (i.e., create category archive page)
+  ☐ Review helpers (see -> https://mmistakes.github.io/minimal-mistakes/docs/helpers/)
+  ☐ Look into why header on personal website differs
   ☐ Fix build errors
     ☐ see -> https://mademistakes.com/work/minimal-mistakes-jekyll-theme/
     ☐ see -> https://jekyllrb.com/docs/front-matter/
-  ☐ Add images
-    ☐ see -> https://unsplash.com/
-    ☐ make responsive -> https://alistapart.com/article/responsive-images-in-practice/
-    ☐ home page (index)
-    ☐ about page ("fun" and "relaxed")
-    ☐ category page
+  ☐ Make images responsive (see -> https://alistapart.com/article/responsive-images-in-practice/)
+  ☐ Update about page 
+        ☐ Find new photo that is "fun" and "relaxed"
   ☐ Create custom 404 page
   ☐ Set up search
   ☐ Update gemfile
@@ -32,7 +38,7 @@ GENERAL:
   ☐ Set up Google Analytics
     ☐ Add tracking for source url clicks (see -> https://thoughtbot.com/blog/external-posts-in-jekyll)
   ☐ Look into affiliate marketing on Amazon
-  ☐ Consider addin the sass elements in this sample config -> https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/docs/_config.yml
+  ☐ Consider adding the sass elements in this sample config -> https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/docs/_config.yml
   ☐ Brand Commonplace and purchase new domain
   ☐ Establish workflow using Prose
   ☐ Consider installing  Sass or SCSS linter for Atom
