@@ -1,5 +1,7 @@
 ---
-layout: tags
+title: "Posts by Tag"
+layout: "tags"
 permalink: "/tags/"
-title: "Tag Archive"
+author_profile: true
+entries_layout: #"grid" or "list"
 ---

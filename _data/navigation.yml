@@ -2,10 +2,12 @@
 main:
   - title: "About"
     url: "/about/"
-  - title: "Tag Archive"
+  - title: "Posts by Tag"
     url: "/tags/"
-  - title: "Personal Website"
-    url: "https://anthonyhinton.com"
+  - title: "Posts by Category"
+    url: "/categories/"
+#  - title: "Personal Website"
+#    url: "https://anthonyhinton.com"
 # - title: "Sitemap"
 #   url: /sitemap/
 
