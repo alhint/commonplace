@@ -293,6 +293,22 @@ body {
   }
 }
 
+.page__meta-custom {
+  display: inline-block;
+  // margin-top: 2em;
+  color: $muted-text-color;
+  font-family: $sans-serif;
+  font-size: $type-size-8;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
 .page__meta-title {
   margin-bottom: 10px;
   font-size: $type-size-6;
@@ -556,5 +572,5 @@ body {
    Added by Anthony
    ========================================================================== */
 .page__sourcelink {
-  color: #0592CA;
+  color: #0092ca; // primary color from air theme
 }

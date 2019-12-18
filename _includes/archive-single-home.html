@@ -27,7 +27,11 @@
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>&nbsp;
+      {% endif %}
+      <!-- category -->
+      {% if post.category %}
+        <p class="page__meta-custom"><a href="{{ post.category | slugify | relative_url }}" class="page__taxonomy-item" rel="tag">{{ post.category }}</a>{% unless forloop.last %}<span class="sep"></span>{% endunless %}</p>
       {% endif %}
     </h2>
     <!-- read time -->

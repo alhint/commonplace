@@ -9,4 +9,4 @@ source_type: "podcast"
 source_url: "https://www.npr.org/2015/09/14/440302192/why-build-a-virtual-world"
 ---
 
-"Having problems isn't a problem. Thinking that having problems is a problem is a problem."
+Having problems isn't a problem. Thinking that having problems is a problem is a problem.
