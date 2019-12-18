@@ -64,6 +64,37 @@
   }
 }
 
+.archive__item-title-custom {
+  margin-bottom: 0.25em;
+  font-family: $sans-serif-narrow;
+  line-height: initial;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  a[rel="permalink"]::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  a + a {
+    opacity: 0.5;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  ul li {
+    display: inline-block;
+    padding: 0px 0px;
+  }
+}
+
 /* remove border*/
 .page__content {
   .archive__item-title {
@@ -74,6 +105,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
+  margin-bottom: 1em;
   font-size: $type-size-6;
 
   & + p {
