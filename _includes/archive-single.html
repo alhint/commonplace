@@ -43,12 +43,9 @@
       <p class="page__meta" align="right">- {{ post.attribution }}, {{ post.source }}</p>
     {% endif %}
     <!-- created date -->
-    <!-- {% if page.last_modified_at %}
-          <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time></p>
-      {% elsif page.date %}
-        <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
-      {% endif %}</div> -->
-    </section>
+    {% if post.date %}
+      <p class="page__meta" align="right"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+    {% endif %}
 
   </article>
 </div>
