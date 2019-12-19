@@ -14,3 +14,13 @@
 .page__taxonomy-item.custom {
   color: $primary-color;
 }
+
+#homepage_category_button {
+  margin: 0;
+  display: inline-block;
+
+  div {
+    margin: 0;
+    display: inline-block;
+  }
+}
