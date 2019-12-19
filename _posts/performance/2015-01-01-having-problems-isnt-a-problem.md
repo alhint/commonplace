@@ -10,4 +10,4 @@ source_type: "podcast"
 source_url: #"https://www.google.com"
 ---
 
-"Having problems isn't a problem. Thinking that having problems is a problem is a problem."
+Having problems isn't a problem. Thinking that having problems is a problem is a problem.
