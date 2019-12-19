@@ -6,3 +6,11 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.source_link {
+  color: $primary-color;
+}
+
+.page__taxonomy-item.custom {
+  color: $primary-color;
+}

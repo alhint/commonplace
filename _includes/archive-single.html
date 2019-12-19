@@ -23,13 +23,52 @@
           alt="">
       </div>
     {% endif %}
-    <h2 class="archive__item-title" itemprop="headline">
+
+
+    <!-- <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
-    </h2>
+    </h2> -->
+
+    <!-- version 1 -->
+        <!-- <h2 class="archive__item-title" itemprop="headline">
+          {% if post.link %}
+            <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+          {% else %}
+            <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+          {% endif %}
+        </h2> -->
+
+    <!-- version 2 -->
+        <!-- <h2 class="archive__item-title" itemprop="headline">
+        <ul>
+            <li><a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a></li>&nbsp;&nbsp;
+            <li><p class="page__meta"><a href="{{ post.category | slugify | relative_url }}" class="page__taxonomy-item-custom" rel="tag">{{ post.category }}</a>{% unless forloop.last %}<span class="sep"></span>{% endunless %}</p></li>
+        <ul>
+        </h2> -->
+
+    <!-- version 3 -->
+    {% if page.layout == "home" %}
+        <h2 class="archive__item-title" itemprop="headline">
+          <span><a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a></span>
+          <span class="page__meta"><a href="{{ post.category | slugify | relative_url }}" class="page__taxonomy-item custom" rel="tag">{{ post.category }}</a>{% unless forloop.last %}<span class="sep"></span>{% endunless %}</span>
+        </h2>
+    {% elsif page.layout != "home" %}
+        <h2 class="archive__item-title" itemprop="headline">
+          <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+        </h2>
+    {% endif page.layout !== "home" %}
+
+<!-- version 4 -->
+        <!-- <h2 class="archive__item-title" itemprop="headline" style="display:inline">
+          <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+        </h2><div class="page__meta" style="display:inline">
+          <a href="{{ post.category | slugify | relative_url }}" class="page__taxonomy-item custom" rel="tag">{{ post.category }}</a>
+        </div> -->
+
     <!-- read time -->
     {% if post.read_time %}
       <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
