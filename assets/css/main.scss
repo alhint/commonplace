@@ -13,11 +13,12 @@
 
 .page__taxonomy-item.custom {
   color: $primary-color;
+  margin-bottom: 0px;
+  padding: 3px 8px;
 }
 
-#homepage_category_button {
+#homepage_post_header {
   margin: 0;
-  display: inline-block;
 
   div {
     margin: 0;
