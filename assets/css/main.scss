@@ -12,7 +12,7 @@
 }
 
 .page__taxonomy-item.custom {
-  color: $primary-color;
+  // color: $primary-color;
   margin-bottom: 0px;
   padding: 3px 8px;
 }
@@ -24,4 +24,8 @@
     margin: 0;
     display: inline-block;
   }
+}
+
+#homepage_post_header_color {
+  color: $primary-color;
 }

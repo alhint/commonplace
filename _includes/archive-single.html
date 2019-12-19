@@ -36,7 +36,7 @@
     {% if page.layout == "home" %}
       <h2 class="archive__item-title" itemprop="headline" id="homepage_post_header">
         <div>
-          <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+          <a href="{{ post.url | relative_url }}" rel="permalink" id="homepage_post_header_color">{{ title }}</a>
         </div>&nbsp;&nbsp;
         <div class="page__meta">
           <a href="{{ post.category | slugify | relative_url }}" class="page__taxonomy-item custom" rel="tag">{{ post.category }}</a>{% unless forloop.last %}<span class="sep"></span>{% endunless %}
@@ -44,7 +44,7 @@
       </h2>
     {% elsif page.layout != "home" %}
         <h2 class="archive__item-title" itemprop="headline">
-          <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+          <a href="{{ post.url | relative_url }}" rel="permalink" id="homepage_post_header_color">{{ title }}</a>
         </h2>
     {% endif page.layout !== "home" %}
 
