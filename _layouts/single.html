@@ -48,6 +48,7 @@ layout: default
         </div>
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
         <section class="page__meta">
+
           <!-- source link -->
           <div {% if page.attribution %}
             align="right"><p class="page__sourcelink">
@@ -55,6 +56,7 @@ layout: default
                 <!-- <i class="fas fa-fw fa-link" aria-hidden="true"></i> -->
               {% endif %}<a href="{{ page.source_url }}" target="_blank">{{ page.source }}</a></p>
           {% endif %}</div>
+
           <!-- created date -->
           <div align="right">{% if page.last_modified_at %}
               <p class="page__date">
