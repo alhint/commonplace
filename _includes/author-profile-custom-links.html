@@ -1,7 +1,23 @@
-<!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
+{% if author.website %}
+<li>
+  <a href="{{ author.website }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+    <i class="fas fa-user-circle" aria-hidden="true"></i> Website
+  </a>
+</li>
+{% endif %}
+
+{% if author.discogs %}
+<li>
+  <a href="{{ author.discogs }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+    <i class="fas fa-record-vinyl" aria-hidden="true"></i> Discogs
+  </a>
+</li>
+{% endif %}
+
+{% if author.goodreads %}
+<li>
+  <a href="{{ author.goodreads }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+    <i class="fab fa-fw fa-goodreads" aria-hidden="true"></i> Goodreads
+  </a>
+</li>
+{% endif %}

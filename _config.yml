@@ -83,7 +83,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username              : "alhint"
+  username              : #"alhint"
 facebook:
   username               :
   app_id                 :
@@ -107,10 +107,13 @@ analytics:
 # Site Author
 author:
   name                    : "Anthony Hinton"
-  avatar                  : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio                     : "This is where I will explain what this site is."
+  avatar                  : "/assets/images/profilepic.png" #path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio                     : "WIP"
   location                : "San Francisco, CA"
   email                   : me@anthonyhinton.com
+  # goodreads               : "https://www.goodreads.com/alhint"
+  # discogs                 : "https://www.discogs.com/user/alhint"
+  # website                 : "https://anthonyhinton.com"
   links:
     - label               : "Website"
       icon                : "fas fa-fw fa-link"
@@ -118,15 +121,18 @@ author:
     - label               : "LinkedIn"
       icon                : "fab fa-fw fa-linkedin"
       url                 : "https://www.linkedin.com/in/hintonanthony"
-    - label               : "GoodReads"
+    - label               : "Goodreads"
       icon                : "fab fa-fw fa-goodreads"
       url                 : "https://www.goodreads.com/alhint"
     - label               : "GitHub"
       icon                : "fab fa-fw fa-github"
       url                 : "https://github.com/alhint"
-    - label               : "Discogs"
-      icon                : "fas fa-record-vinyl"
-      url                 : "https://www.discogs.com/user/alhint"
+    # - label               : "Discogs"
+    #   icon                : "fas fa-record-vinyl"
+    #   url                 : "https://www.discogs.com/user/alhint"
+    - label               : #"Email"
+      icon                : #"far fa-fw fa-envelope"
+      url                 : #mailto:your.me@anthonyhinton.com
     - label               : #"Twitter"
       icon                : #"fab fa-fw fa-twitter-square"
       url                 : #"https://twitter.com/"
@@ -140,34 +146,21 @@ author:
 # Site Footer
 footer:
   links:
+    - label               : "Website"
+      icon                : "fas fa-user-circle"
+      url                 : "https://anthonyhinton.com"
     - label               : "LinkedIn"
       icon                : "fab fa-fw fa-linkedin"
       url                 : "https://www.linkedin.com/in/hintonanthony"
-    - label               : "GoodReads"
+    - label               : "Goodreads"
       icon                : "fab fa-fw fa-goodreads"
       url                 : "https://www.goodreads.com/alhint"
-    - label               : "Discogs"
-      icon                : "fas fa-record-vinyl"
-      url                 : "https://www.discogs.com/user/alhint"
     - label               : "GitHub"
       icon                : "fab fa-fw fa-github"
       url                 : "https://github.com/alhint"
-    - label               : #"Twitter"
-      icon                : #"fab fa-fw fa-twitter-square"
-      url                 :
-    - label               : #"Facebook"
-      icon                : #"fab fa-fw fa-facebook-square"
-      url                 :
-    - label               : #"GitLab"
-      icon                : #"fab fa-fw fa-gitlab"
-      url                 :
-    - label               : #"Bitbucket"
-      icon                : #"fab fa-fw fa-bitbucket"
-      url                 :
-    - label               : #"Instagram"
-      icon                : #"fab fa-fw fa-instagram"
-      url                 :
-
+    - label               : "Discogs"
+      icon                : "fas fa-record-vinyl"
+      url                 : "https://www.discogs.com/user/alhint"
 
 # Reading Files
 include:
