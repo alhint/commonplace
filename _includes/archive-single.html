@@ -24,20 +24,11 @@
       </div>
     {% endif %}
 
-
-    <!-- <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-    </h2> -->
-
     {% if page.layout == "home" %}
       <h2 class="archive__item-title" itemprop="headline" id="homepage_post_header">
-        <div>
+        <div id="homepage_post_header_post_title">
           <a href="{{ post.url | relative_url }}" rel="permalink" id="homepage_post_header_color">{{ title }}</a>
-        </div>&nbsp;&nbsp;
+        </div>&nbsp;
         <div class="page__meta">
           <a href="{{ post.category | slugify | relative_url }}" class="page__taxonomy-item custom" rel="tag">{{ post.category }}</a>{% unless forloop.last %}<span class="sep"></span>{% endunless %}
         </div>
@@ -52,14 +43,17 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
+
     <!-- excerpt -->
     {% if post.excerpt %}
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html }}</p>
     {% endif %}
+
     <!-- source link -->
     {% if post.attribution %}
       <p class="page__meta" align="right">- {{ post.attribution }}, {{ post.source }}</p>
     {% endif %}
+
     <!-- created date -->
     {% if post.date %}
       <p class="page__meta" align="right"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>

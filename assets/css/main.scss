@@ -19,11 +19,22 @@
 
 #homepage_post_header {
   margin: 0;
+  width: 100%;
 
   div {
     margin: 0;
     display: inline-block;
   }
+}
+
+#homepage_post_header_post_title {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 80%;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 #homepage_post_header_color {
