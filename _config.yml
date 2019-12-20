@@ -295,6 +295,10 @@ defaults:
       entries_layout: "grid"
       sidebar:
         nav: "side"
+      header:
+        overlay_color: "#000"
+        overlay_filter: "0.5" #specify opacity (between 0 and 1)
+        overlay_image: "/assets/images/teaser.jpeg"
   -
     scope:
       path: "_posts"
