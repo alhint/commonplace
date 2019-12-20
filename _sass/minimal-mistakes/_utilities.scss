@@ -242,7 +242,7 @@ body:hover .visually-hidden button {
   .fa-github,
   .fa-github-alt,
   .fa-github-square {
-    color: $github-color;
+    color: #6e5494;
   }
 
   .fa-gitlab {
@@ -323,6 +323,14 @@ body:hover .visually-hidden button {
   .fa-xing,
   .fa-xing-square {
     color: $xing-color;
+  }
+
+  .fa-goodreads {
+    color: #553b08;
+  }
+
+  .fa-record-vinyl {
+    color: #333333;
   }
 }
 
