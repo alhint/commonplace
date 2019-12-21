@@ -5,3 +5,4 @@ end
 
 gem "jekyll-octicons"
 gem "jekyll-include-cache"
+gem 'jekyll-sitemap'
