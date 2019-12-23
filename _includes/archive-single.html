@@ -28,7 +28,7 @@
       <h2 class="archive__item-title" itemprop="headline" id="homepage_post_header">
         <div id="homepage_post_header_post_title">
           <a href="{{ post.url | relative_url }}" rel="permalink" id="homepage_post_header_color">{{ title }}</a>
-        </div>&nbsp;
+        </div>&#32;
         <div class="page__meta">
           <a href="{{ post.category | slugify | relative_url }}" class="page__taxonomy-item custom" rel="tag">{{ post.category }}</a>{% unless forloop.last %}<span class="sep"></span>{% endunless %}
         </div>
