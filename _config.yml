@@ -78,7 +78,7 @@ author:
   avatar                  : "/assets/images/profilepic.png" #path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio                     : "wip"
   location                : "San Francisco, CA"
-  email                   : me@anthonyhinton.com
+  email                   : anthony@ideascollected.com
   links:
     - label               : "Website"
       icon                : "fas fa-fw fa-link"
