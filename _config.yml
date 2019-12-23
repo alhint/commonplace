@@ -239,7 +239,7 @@ defaults:
       type                : "pages"
     values:
       layout              : "category"
-      entries_layout      : "grid"
+      entries_layout      : "list"
       sidebar:
         nav               : "side"
       header:
