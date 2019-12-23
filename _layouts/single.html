@@ -44,8 +44,13 @@ layout: default
           </aside>
         {% endif %}
 
-        <p >{{ content }}</p>
-        <p class="test" align="right">- {{ page.attribution }}</p>
+        <div>
+          {{ content }}
+        </div>
+
+        <div class="test" align="right">
+          - {{ page.attribution }}
+        </div>
 
         {% if page.link %}
         <div>
@@ -53,7 +58,7 @@ layout: default
         </div>
         {% endif %}
 
-        <section class="page__meta">
+        <div class="page__meta">
 
           <!-- source link -->
           {% if page.attribution %}
@@ -69,7 +74,7 @@ layout: default
             </p>
           </div>
           {% endif %}
-        </section>
+        </div>
       </section>
 
       <footer class="page__meta">
