@@ -34,6 +34,7 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+
         {% if page.toc %}
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
             <nav class="toc">
@@ -42,13 +43,18 @@ layout: default
             </nav>
           </aside>
         {% endif %}
-        {{ content }}
-        <div align="right">
-          - {{ page.attribution }}
+
+        <p >{{ content }}</p>
+        <p class="test" align="right">- {{ page.attribution }}</p>
+
+        {% if page.link %}
+        <div>
+          <a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a>
         </div>
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        {% endif %}
 
         <section class="page__meta">
+
           <!-- source link -->
           {% if page.attribution %}
           <div align="right"> <p class="source_link"><a href="{{ page.source_url }}" target="_blank">{{ page.source }}</a></p></div>
@@ -59,7 +65,8 @@ layout: default
           <div align="right">
             <p class="page__date">
               <!-- <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> -->
-              <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+              <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+            </p>
           </div>
           {% endif %}
         </section>
