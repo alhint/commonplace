@@ -286,10 +286,10 @@ defaults:
       category            : "product"
   -
     scope:
-      path                : "_posts/technology"
+      path                : "_posts/tech"
       type                : "posts"
     values:
-      category            : "technology"
+      category            : "tech"
   -
     scope:
       path                : "_posts/well_being"
