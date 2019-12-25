@@ -5,8 +5,10 @@ tags:
   - podcast
   - tim-ferriss
 attribution: "Amanda Palmer"
-source: "The Tim Ferriss Show"
 source_type: "podcast"
+source: "The Tim Ferriss Show"
+source_url: "https://tim.blog/podcast/"
+source_title: "Amanda Palmer on How to Fight, Meditate, and Make Good Art"
 source_url: "https://tim.blog/2015/03/30/amanda-palmer/"
 ---
 

@@ -5,9 +5,11 @@ tags:
   - peter-drucker
   - book
 attribution: "Peter Drucker"
-source: "Managing Oneself"
 source_type: "book"
-source_url: "https://www.amazon.com/Managing-Oneself-Harvard-Business-Classics/dp/142212312X"
+source:
+source_url:
+source_title: "Managing Oneself"
+source_article_url: "https://www.amazon.com/Managing-Oneself-Harvard-Business-Classics/dp/142212312X"
 ---
 
 Successful careers are not planned. They develop when people are prepared for opportunities because they know their strengths, method of work, and their values.

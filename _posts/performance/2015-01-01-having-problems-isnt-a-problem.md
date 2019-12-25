@@ -5,9 +5,11 @@ tags:
   - discipline
   - podcast
 attribution: "Joe Desena"
-source: "Spartan Up! The Podcast"
 source_type: "podcast"
-source_url: #"https://www.google.com"
+source: "Spartan Up! The Podcast"
+source_url: "https://www.spartan.com/en/media/podcast/episodes"
+source_title:
+source_article_url:
 ---
 
-"Having problems isn't a problem. Thinking that having problems is a problem is a problem."
+Having problems isn't a problem. Thinking that having problems is a problem is a problem.

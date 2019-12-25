@@ -76,7 +76,7 @@ analytics:
 author:
   name                    : "Anthony Hinton"
   avatar                  : "/assets/images/profilepic.png" #path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio                     : "wip"
+  bio                     : #""
   location                : "San Francisco, CA"
   email                   : anthony@ideascollected.com
   links:

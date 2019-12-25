@@ -50,7 +50,9 @@
     {% endif %}
 
     <!-- source link -->
-    {% if post.attribution %}
+    {% if post.source_title %}
+      <p class="page__meta" align="right">- {{ post.attribution }}, {{ post.source_title }} </p>
+    {% elsif post.source %}
       <p class="page__meta" align="right">- {{ post.attribution }}, {{ post.source }}</p>
     {% endif %}
 
