@@ -1,5 +1,5 @@
 ---
-title: "The keeper of your career"
+title: "Keeper of your career"
 date: "2015-12-07"
 tags:
   - article
