@@ -7,8 +7,8 @@ attribution: "Ben Horowitz"
 source_type: "book"
 source:
 source_url:
-source_title: "High Output Management"
-source_article_url: "https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884"
+main_source: "High Output Management"
+main_source_url: "https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884"
 ---
 
 If you only understand one thing about building products, you must understand that energy put in early in the process pays off ten fold and energy put in at the end of the program pays off negative ten fold.

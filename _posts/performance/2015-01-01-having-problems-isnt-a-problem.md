@@ -6,10 +6,10 @@ tags:
   - podcast
 attribution: "Joe Desena"
 source_type: "podcast"
-source: "Spartan Up! The Podcast"
-source_url: "https://www.spartan.com/en/media/podcast/episodes"
-source_title:
-source_article_url:
+source:
+source_url:
+main_source: "Spartan Up! The Podcast"
+main_source_url: "https://www.spartan.com/en/media/podcast/episodes"
 ---
 
 Having problems isn't a problem. Thinking that having problems is a problem is a problem.

@@ -65,27 +65,40 @@ layout: default
           <div align="right"> <p class="source_link"><a href="{{ page.source_article_url }}" target="_blank">{{ page.source_title }}</a></p></div>
           {% endif %}
 
-          <!-- source and date-->
-          {% if page.source_type == "article" %}
-          <div align="right"><p id="source_attribution">Read in&#8197;<div id="source_attribution" class="source_link"><a href="{{ page.source_url }}" target="_blank">{{ page.source }}</a></div> on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %e, %Y" }}</time></p></div>
+          <!-- source -->
+          <div align="right">
+            <p id="source_attribution" class="source_link">
+              {% if page.source %}<a href="{{ page.source_url }}" target="_blank"><b>{{ page.source }}</b></a>
+              {% elsif page.main_source %}<a href="{{ page.main_source_url }}" target="_blank"><b>{{ page.main_source }}</b></a>
+              {% endif %}
+            </p>
+          </div>
 
-          {% elsif page.source_type == "book" %}
-          <div align="right"><p id="source_attribution">Read on&#8197;<div id="source_attribution" class="source_link"><a href="{{ page.source_url }}" target="_blank">{{ page.source }}</a></div><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %e, %Y" }}</time></p></div>
+          <!-- main source -->
+          {% if page.source !=nil %}
+          <div align="right">
+            <span id="source_attribution">
+              {% if page.source_type == "article" %}<div align="right">Read in</div>
+              {% elsif page.source_type == "book" %}<div align="right">Read in</div>
+              {% elsif page.source_type == "podcast" %}<div align="right">Heard on</div>
+              {% endif %}
+            </span>
 
-          {% elsif page.source_type == "podcast" %}
-          <div align="right"><p id="source_attribution">Heard on&#8197;<div id="source_attribution" class="source_link"><a href="{{ page.source_url }}" target="_blank">{{ page.source }}</a></div> on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %e, %Y" }}</time></p></div>
-
+            <span id="source_attribution" class="source_link" align="right">
+              <a href="{{ page.main_source_url }}" target="_blank">{{ page.main_source }}</a>
+            </span>
+          </div>
           {% endif %}
 
           <!-- date -->
-          <!-- {% if page.date %}
+          {% if page.date %}
           <div align="right">
             <p class="page__date">
-              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i>
+              <!-- <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> -->
               <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
             </p>
           </div>
-          {% endif %} -->
+          {% endif %}
 
         </div>
       </section>

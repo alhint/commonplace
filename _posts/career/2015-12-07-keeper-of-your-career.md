@@ -6,10 +6,10 @@ tags:
   - networking
 attribution: "Reid Hoffman"
 source_type: "article"
-source: "The New Yorker"
-source_url: "https://www.newyorker.com/"
-source_title: "The Network Man: Reid Hoffman’s Big Idea"
-source_article_url: "https://www.newyorker.com/magazine/2015/10/12/the-network-man"
+source: "The Network Man: Reid Hoffman’s Big Idea"
+source_url: "https://www.newyorker.com/magazine/2015/10/12/the-network-man"
+main_source: "The New Yorker"
+main_source_url: "https://www.newyorker.com/"
 ---
 
 The keeper of your career will be not your employer but your personal network - so you’d better put a lot of effort into making it as extensive and as vital as possible.

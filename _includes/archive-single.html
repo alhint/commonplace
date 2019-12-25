@@ -49,9 +49,9 @@
       <p id="excerpt_attribution" class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html }}</p>
     {% endif %}
 
-    <!-- source link -->
-    {% if post.source_title %}
-      <p class="page__meta" align="right">- {{ post.attribution }}, {{ post.source_title }} </p>
+    <!-- attribution and main source -->
+    {% if post.main_source %}
+      <p class="page__meta" align="right">- {{ post.attribution }}, {{ post.main_source }} </p>
     {% elsif post.source %}
       <p class="page__meta" align="right">- {{ post.attribution }}, {{ post.source }}</p>
     {% endif %}
