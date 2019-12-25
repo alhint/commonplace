@@ -2,8 +2,8 @@
 title: "Who cares about your GPA?"
 date: "2016-01-16"
 tags:
-  - tim-ferriss
   - podcast
+  - tim-ferriss
 attribution: "Chris Sacca"
 source_type: "podcast"
 source: "Chris Sacca on Shark Tank, Building Your Business, and Startup Mistakes"

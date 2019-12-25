@@ -2,6 +2,7 @@
 title: "Pursuit of size and strength"
 created_at: "2016-09-26"
 tags:
+  - podcast
   - tim-ferriss
   - longevity
 attribution: "Dominic D’Agostino"

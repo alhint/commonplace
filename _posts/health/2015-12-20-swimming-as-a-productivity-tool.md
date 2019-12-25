@@ -2,6 +2,7 @@
 title: "Swimming as a productivity tool"
 created_at: "2015-12-20"
 tags:
+  - article
   - ryan-holiday
   - exercise
 attribution: "Robert Greene"

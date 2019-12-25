@@ -2,8 +2,8 @@
 title: "Successful careers are not planned"
 date: "2015-12-10"
 tags:
-  - peter-drucker
   - book
+  - peter-drucker
 attribution: "Peter Drucker"
 source_type: "book"
 source:

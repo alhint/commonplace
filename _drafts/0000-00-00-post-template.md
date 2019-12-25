@@ -4,7 +4,7 @@ date:
 tags:
 attribution:
 source_type:
-source_title:
+source:
 source_url:
 main_source:
 main_source_url:

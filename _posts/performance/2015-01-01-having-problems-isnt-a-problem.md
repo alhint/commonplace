@@ -2,8 +2,8 @@
 title: "Having problems isn't a problem"
 created_at: "2015-01-01"
 tags:
-  - discipline
   - podcast
+  - discipline
 attribution: "Joe Desena"
 source_type: "podcast"
 source:

@@ -3,6 +3,7 @@ title: "Access to a virtual world will become a civil right"
 created_at: "2015-09-18"
 tags:
   - podcast
+  - future
 attribution: "Philip Rosedale"
 source_type: "podcast"
 source: "Why Build A Virtual World?"

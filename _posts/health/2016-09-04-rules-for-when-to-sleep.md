@@ -2,8 +2,8 @@
 title: "Rules for when to sleep"
 created_at: "2016-09-04"
 tags:
-  - sleep
   - book
+  - sleep
 attribution: "Donald Sull & Kathleen Eisenhardt"
 source_type: "book"
 source:
