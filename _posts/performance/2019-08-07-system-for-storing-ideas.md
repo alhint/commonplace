@@ -1,5 +1,5 @@
 ---
-title: "Storing bad ideas"
+title: "System for storing ideas"
 date: "2019-08-07"
 tags:
   - book
