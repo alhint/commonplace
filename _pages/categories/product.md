@@ -1,5 +1,7 @@
 ---
 taxonomy: product
 permalink: "/:basename/"
-title: "Product"
+title: " " #"Product"
+header:
+  overlay_image: "/assets/images/product.svg"
 ---

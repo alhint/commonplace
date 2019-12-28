@@ -1,5 +1,7 @@
 ---
 taxonomy: health
 permalink: "/:basename/"
-title: "Health"
+title: " " #"Health"
+header:
+  overlay_image: "/assets/images/health.svg"
 ---

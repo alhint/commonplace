@@ -1,5 +1,7 @@
 ---
 taxonomy: performance
 permalink: "/:basename/"
-title: "Performance"
+title: " " #"Performance"
+header:
+  overlay_image: "/assets/images/performance.svg"
 ---
