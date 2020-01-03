@@ -62,14 +62,14 @@ layout: default
 
           <!-- source title -->
           {% if page.source_title %}
-          <div align="right"> <p class="source_link"><a href="{{ page.source_article_url }}" target="_blank">{{ page.source_title }}</a></p></div>
+          <div align="right"> <p class="source_link"><a href="{{ page.source_article_url }}" rel="nofollow noopener noreferrer" target="_blank">{{ page.source_title }}</a></p></div>
           {% endif %}
 
           <!-- source -->
           <div align="right">
             <p id="source_attribution" class="source_link">
               {% if page.source %}<a href="{{ page.source_url }}" target="_blank"><b>{{ page.source }}</b></a>
-              {% elsif page.main_source %}<a href="{{ page.main_source_url }}" target="_blank"><b>{{ page.main_source }}</b></a>
+              {% elsif page.main_source %}<a href="{{ page.main_source_url }}" rel="nofollow noopener noreferrer" target="_blank"><b>{{ page.main_source }}</b></a>
               {% endif %}
             </p>
           </div>
@@ -86,7 +86,7 @@ layout: default
             </span>
 
             <span id="source_attribution" class="source_link" align="right">
-              <a href="{{ page.main_source_url }}" target="_blank">{{ page.main_source }}</a>
+              <a href="{{ page.main_source_url }}" rel="nofollow noopener noreferrer" target="_blank">{{ page.main_source }}</a>
             </span>
           </div>
           {% endif %}
