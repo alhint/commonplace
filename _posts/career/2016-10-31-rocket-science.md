@@ -5,7 +5,7 @@ tags:
   - book
   - learning
 attribution: "Dave Camarillo"
-source_type: "book"
+source_type: "podcast"
 source: "Meet the Machine, Dave Camarillo"
 source_url: "https://tim.blog/2016/10/30/dave-camarillo/"
 main_source: "The Tim Ferriss Show"
