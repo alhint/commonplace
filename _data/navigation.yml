@@ -4,12 +4,6 @@ main:
     url: "/about/"
   - title: "Posts by Tag"
     url: "/tags/"
-#  - title: "Posts by Category"
-#    url: "/categories/"
-#  - title: "Personal Website"
-#    url: "https://anthonyhinton.com"
-# - title: "Sitemap"
-#   url: /sitemap/
 
 side:
   - title: "Categories"
