@@ -2,12 +2,9 @@
 layout: single
 permalink: "/about/"
 title: "About"
-sub_title: "Subtitle"
-introduction: #""
-image:  # URL to a hero image associated with the post (e.g., /assets/page-pic.jpg)
-author:
-  name: Anthony Hinton
-  picture: /assets/images/profilepic.png
+author_profile: true
+#header:
+#  image: "/assets/images/ideascollected_v2.svg"
 ---
 
 Hello!  I am going to tell you about myself on this page. Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah.
