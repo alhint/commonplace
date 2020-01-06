@@ -94,7 +94,7 @@ author:
       url                 : "https://github.com/alhint"
     - label               : #"Discogs"
       icon                : #"fas fa-record-vinyl"
-      url                 : #"https://discogs.com/user/alhint"
+      url                 : #"https://discogs.com/user/alhint/collection"
     - label               : #"Email"
       icon                : #"far fa-fw fa-envelope"
       url                 : #mailto:your.me@anthonyhinton.com
@@ -125,7 +125,7 @@ footer:
       url                 : "https://github.com/alhint"
     - label               : "Discogs"
       icon                : "fas fa-record-vinyl"
-      url                 : "https://discogs.com/user/alhint"
+      url                 : "https://discogs.com/user/alhint/collection"
 
 # Reading Files
 include:
