@@ -1,17 +1,19 @@
 {% if author.website %}
 <li>
   <a href="{{ author.website }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-    <i class="fas fa-user-circle" aria-hidden="true"></i> Website
+    <i class="icon-ah_square" aria-hidden="true">
+      <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+    </i> Resume
   </a>
 </li>
 {% endif %}
 
-{% if author.discogs %}
-<li>
-  <a href="{{ author.discogs }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-    <i class="fas fa-record-vinyl" aria-hidden="true"></i> Discogs
-  </a>
-</li>
+{% if author.linkedin %}
+  <li>
+    <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
+    </a>
+  </li>
 {% endif %}
 
 {% if author.goodreads %}
@@ -20,4 +22,29 @@
     <i class="fab fa-fw fa-goodreads" aria-hidden="true"></i> Goodreads
   </a>
 </li>
+{% endif %}
+
+{% if author.discogs %}
+<li>
+  <a href="https://www.discogs.com/user/{{ author.discogs }}/collection" itemprop="sameAs" rel="nofollow noopener noreferrer">
+    <i class="fas fa-record-vinyl" aria-hidden="true"></i> Discogs
+  </a>
+</li>
+{% endif %}
+
+{% if author.github %}
+  <li>
+    <a href="https://github.com/{{ author.github }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
+    </a>
+  </li>
+{% endif %}
+
+{% if author.email %}
+  <li>
+    <a href="mailto:{{ author.email }}">
+      <meta itemprop="email" content="{{ author.email }}" />
+      <i class="far fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
+    </a>
+  </li>
 {% endif %}

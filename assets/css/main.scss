@@ -60,3 +60,80 @@
 #site-title {
   margin-top: -0.4em;
 }
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?obp7kq');
+  src:  url('fonts/icomoon.eot?obp7kq#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?obp7kq') format('truetype'),
+    url('fonts/icomoon.woff?obp7kq') format('woff'),
+    url('fonts/icomoon.svg?obp7kq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ic_square .path1:before {
+  content: "\e900";
+  color: rgb(20, 160, 212);
+  opacity: 1;
+}
+
+.icon-ic_square .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(249, 250, 253);
+}
+
+.icon-ic_square .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(249, 250, 253);
+}
+
+.icon-ic_square .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(249, 250, 253);
+}
+
+.icon-ah_square .path1:before {
+  content: "\e904";
+  margin-left: 0.1em;
+  margin-right: -0.2px;
+  color: rgb(20, 160, 212);
+  opacity: 1;
+}
+.icon-ah_square .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  margin-right: -0.2px;
+  color: rgb(249, 250, 253);
+}
+
+.icon-ah_square .path3:before {
+  content: "\e906";
+  margin-left: -1em;
+  margin-right: -0.2px;
+  color: rgb(249, 250, 253);
+}
+
+.fa-record-vinyl {
+  margin-left: 0.14em;
+  margin-right: 0.15em;
+}

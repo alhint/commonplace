@@ -64,14 +64,14 @@
         </li>
       {% endif %}
 
-      {% if author.email %}
+      <!-- {% if author.email %}
         <li>
           <a href="mailto:{{ author.email }}">
             <meta itemprop="email" content="{{ author.email }}" />
             <i class="far fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
           </a>
         </li>
-      {% endif %}
+      {% endif %} -->
 
       {% if author.keybase %}
         <li>
@@ -97,13 +97,13 @@
         </li>
       {% endif %}
 
-      {% if author.linkedin %}
+      <!-- {% if author.linkedin %}
         <li>
           <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
             <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
           </a>
         </li>
-      {% endif %}
+      {% endif %} -->
 
       {% if author.xing %}
         <li>
@@ -137,13 +137,13 @@
         </li>
       {% endif %}
 
-      {% if author.github %}
+      <!-- {% if author.github %}
         <li>
           <a href="https://github.com/{{ author.github }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
             <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
           </a>
         </li>
-      {% endif %}
+      {% endif %} -->
 
       {% if author.gitlab %}
         <li>
