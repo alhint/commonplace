@@ -1,3 +1,11 @@
+{% if author.website %}
+<li>
+  <a href="{{ author.website }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+    <i class="icon-ah-logo-no-color" aria-hidden="true"></i> AnthonyHinton.com
+  </a>
+</li>
+{% endif %}
+
 {% if author.goodreads %}
 <li>
   <a href="{{ author.goodreads }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
