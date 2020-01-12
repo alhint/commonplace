@@ -116,21 +116,21 @@ author:
 # Site Footer
 footer:
   links:
-    - label               : "Website"
-      icon                : "fas fa-user-circle"
-      url                 : "https://anthonyhinton.com"
-    - label               : "LinkedIn"
-      icon                : "fab fa-fw fa-linkedin"
-      url                 : "https://linkedin.com/in/alhint"
-    - label               : "Goodreads"
-      icon                : "fab fa-fw fa-goodreads"
-      url                 : "https://goodreads.com/alhint"
-    - label               : "GitHub"
-      icon                : "fab fa-fw fa-github"
-      url                 : "https://github.com/alhint"
-    - label               : "Discogs"
-      icon                : "fas fa-record-vinyl"
-      url                 : "https://discogs.com/user/alhint/collection"
+    - label               : #"AnthonyHinton.com"
+      icon                : #"fas fa-user-circle"
+      url                 : #"https://anthonyhinton.com"
+    - label               : #"LinkedIn"
+      icon                : #"fab fa-fw fa-linkedin"
+      url                 : #"https://linkedin.com/in/alhint"
+    - label               : #"Goodreads"
+      icon                : #"fab fa-fw fa-goodreads"
+      url                 : #"https://goodreads.com/alhint"
+    - label               : #"GitHub"
+      icon                : #"fab fa-fw fa-github"
+      url                 : #"https://github.com/alhint"
+    - label               : #"Discogs"
+      icon                : #"fas fa-record-vinyl"
+      url                 : #"https://discogs.com/user/alhint/collection"
 
 # Reading Files
 include:

@@ -63,11 +63,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?obp7kq');
-  src:  url('fonts/icomoon.eot?obp7kq#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?obp7kq') format('truetype'),
-    url('fonts/icomoon.woff?obp7kq') format('woff'),
-    url('fonts/icomoon.svg?obp7kq#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?vgmiug');
+  src:  url('fonts/icomoon.eot?vgmiug#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?vgmiug') format('truetype'),
+    url('fonts/icomoon.woff?vgmiug') format('woff'),
+    url('fonts/icomoon.svg?vgmiug#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -88,52 +88,39 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-ic_square .path1:before {
-  content: "\e900";
-  color: rgb(20, 160, 212);
-  opacity: 1;
-}
-
-.icon-ic_square .path2:before {
-  content: "\e901";
-  margin-left: -1em;
-  color: rgb(249, 250, 253);
-}
-
-.icon-ic_square .path3:before {
+.icon-ah-logo:before {
   content: "\e902";
-  margin-left: -1em;
-  color: rgb(249, 250, 253);
-}
-
-.icon-ic_square .path4:before {
-  content: "\e903";
-  margin-left: -1em;
-  color: rgb(249, 250, 253);
-}
-
-.icon-ah_square .path1:before {
-  content: "\e904";
+  // color: #55b5db;
+  color: #0092ca;
   margin-left: 0.1em;
-  margin-right: -0.2px;
-  color: rgb(20, 160, 212);
-  opacity: 1;
-}
-.icon-ah_square .path2:before {
-  content: "\e905";
-  margin-left: -1em;
-  margin-right: -0.2px;
-  color: rgb(249, 250, 253);
+  margin-right: 0.1em;
 }
 
-.icon-ah_square .path3:before {
-  content: "\e906";
-  margin-left: -1em;
-  margin-right: -0.2px;
-  color: rgb(249, 250, 253);
+.icon-ah-logo-no-color:before {
+  content: "\e900";
+  margin-left: 0.1em;
+  margin-right: 0.1em;
 }
 
-.fa-record-vinyl {
-  margin-left: 0.14em;
+.icon-ic-logo:before {
+  content: "\e901";
+  color: #55b5db;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}
+
+.icon-ic-logo-no-color:before {
+  content: "\e903";
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}
+
+.icon-discogs:before {
+  content: "\e907";
+  margin-left: 0.15em;
   margin-right: 0.15em;
+}
+
+#brightness:before {
+  color:white;
 }

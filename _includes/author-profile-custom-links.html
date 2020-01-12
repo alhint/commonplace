@@ -1,9 +1,7 @@
-{% if author.website %}
+{% if author.goodreads %}
 <li>
-  <a href="{{ author.website }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-    <i class="icon-ah_square" aria-hidden="true">
-      <span class="path1"></span><span class="path2"></span><span class="path3"></span>
-    </i> Resume
+  <a href="{{ author.goodreads }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+    <i class="fab fa-fw fa-goodreads" aria-hidden="true"></i> Goodreads
   </a>
 </li>
 {% endif %}
@@ -16,18 +14,10 @@
   </li>
 {% endif %}
 
-{% if author.goodreads %}
-<li>
-  <a href="{{ author.goodreads }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-    <i class="fab fa-fw fa-goodreads" aria-hidden="true"></i> Goodreads
-  </a>
-</li>
-{% endif %}
-
 {% if author.discogs %}
 <li>
   <a href="https://www.discogs.com/user/{{ author.discogs }}/collection" itemprop="sameAs" rel="nofollow noopener noreferrer">
-    <i class="fas fa-record-vinyl" aria-hidden="true"></i> Discogs
+    <i class="icon-discogs" aria-hidden="true"></i> Discogs
   </a>
 </li>
 {% endif %}
