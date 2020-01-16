@@ -5,4 +5,7 @@ end
 
 gem "jekyll-octicons"
 gem "jekyll-include-cache"
-gem 'jekyll-sitemap'
+gem "jekyll-sitemap"
+gem "jekyll-import"
+gem "jekyll-github-metadata"
+gem "faraday", "0.17.3"
