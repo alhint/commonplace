@@ -14,7 +14,7 @@ GENERAL:
     ☐ Consider bringing source info into actual post content so it shows up in excerpt
     ☐ Consider unique excerpt for each post
   ☐ Reformat single layout (i.e., source, created, category, and tags)
-    ☐ Consider removing “link-icon source:” and “calendar-icon created:”
+    ☐ Consider removing “link-icon publication:” and “calendar-icon created:”
     ☐ Change color of source link to match theme blue (#0592CA)
   ☐ Fix category button link (i.e., create category archive page)
   ☐ Review helpers (see -> https://mmistakes.github.io/minimal-mistakes/docs/helpers/)

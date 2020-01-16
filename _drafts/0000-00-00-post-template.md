@@ -3,9 +3,9 @@ title:
 date:
 tags:
 attribution:
-source_type:
-source:
-source_url:
-main_source:
-main_source_url:
+publication_type:
+publication:
+publication_url:
+publication:
+publication_url:
 ---

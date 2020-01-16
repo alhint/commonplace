@@ -60,33 +60,32 @@ layout: default
 
         <div class="page__meta">
 
-          <!-- source title -->
-          {% if page.source_title %}
-          <div align="right"> <p class="source_link"><a href="{{ page.source_article_url }}" target="_blank">{{ page.source_title }}</a></p></div>
+          <!-- old format with source + main source-->
+          <!-- {% if page.source_title %}
+          <div align="right"> <p class="source_link"><a href="{{ page.source_article_url }}">{{ page.source_title }}</a></p></div>
           {% endif %}
 
-          <!-- source -->
           <div align="right">
             <p id="source_attribution" class="source_link">
-              {% if page.source %}<a href="{{ page.source_url }}" target="_blank"><b>{{ page.source }}</b></a>
-              {% elsif page.main_source %}<a href="{{ page.main_source_url }}" target="_blank"><b>{{ page.main_source }}</b></a>
+              {% if page.source %}<a href="{{ page.source_url }}"><b>{{ page.source }}</b></a>
+              {% elsif page.main_source %}<a href="{{ page.main_source_url }}"><b>{{ page.main_source }}</b></a>
               {% endif %}
             </p>
-          </div>
+          </div> -->
 
-          <!-- main source -->
-          {% if page.source !=nil %}
+          <!-- publication -->
+          {% if page.publication !=nil %}
           <div align="right">
             <span id="source_attribution">
-              {% if page.source_type == "article" %}<div align="right">Read in</div>
-              {% elsif page.source_type == "book" %}<div align="right">Read in</div>
-              {% elsif page.source_type == "podcast" %}<div align="right">Heard on</div>
-              {% elsif page.source_type == "documentary" %}<div align="right">Seen on</div>
+              {% if page.publication_type == "article" %}<div align="right">Read in</div>
+              {% elsif page.publication_type == "book" %}<div align="right">Read in</div>
+              {% elsif page.publication_type == "podcast" %}<div align="right">Heard on</div>
+              {% elsif page.publication_type == "documentary" %}<div align="right">Seen on</div>
               {% endif %}
             </span>
 
             <span id="source_attribution" class="source_link" align="right">
-              <a href="{{ page.main_source_url }}" target="_blank">{{ page.main_source }}</a>
+              <a href="{{ page.publication_url }}">{{ page.publication }}</a>
             </span>
           </div>
           {% endif %}

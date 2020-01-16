@@ -46,19 +46,37 @@
 
     <!-- excerpt -->
     {% if post.excerpt %}
-      <p id="excerpt_attribution" class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html }}</p>
+      <p id="excerpt_attribution" class="archive__item-excerpt" itemprop="description">
+        {{ post.excerpt | markdownify | strip_html }}
+      </p>
+      <p id="excerpt_attribution" class="archive__item-excerpt" itemprop="description" align="right">
+        - {{ post.attribution | markdownify | strip_html }}
+      </p>
     {% endif %}
 
-    <!-- attribution and main source -->
-    {% if post.main_source %}
-      <p class="page__meta" align="right">- {{ post.attribution }}, {{ post.main_source }} </p>
-    {% elsif post.source %}
-      <p class="page__meta" align="right">- {{ post.attribution }}, {{ post.source }}</p>
+    {% if post.publication %}
+      <p class="page__meta" align="right">
+        {% if post.publication_type == "podcast" %}
+          <i class="fas fa-podcast" aria-hidden="true"></i>
+        {% elsif post.publication_type == "book" %}
+          <i class="fas fa-book-open" aria-hidden="true"></i>
+        {% elsif post.publication_type == "article" %}
+          <i class="far fa-newspaper" aria-hidden="true"></i>
+        {% elsif post.publication_type == "book" %}
+          <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        {% elsif post.publication_type == "movie" %}
+          <i class="fas fa-film" aria-hidden="true"></i>
+        {% endif %}
+        {{ post.publication }}
+      </p>
     {% endif %}
 
     <!-- created date -->
-    {% if post.date %}
-      <p class="page__meta" align="right"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %e, %Y" }}</time></p>
-    {% endif %}
+    <!-- {% if post.date %}
+    <p class="page__meta" align="right">
+      <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %e, %Y" }}</time>
+    </p>
+    {% endif %} -->
   </article>
 </div>

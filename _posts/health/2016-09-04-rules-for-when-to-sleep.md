@@ -1,15 +1,13 @@
 ---
 title: "Rules for when to sleep"
 created_at: "2016-09-04"
+attribution: "Donald Sull & Kathleen Eisenhardt"
+publication: "Simple Rules: How to Thrive in a Complex World"
+publication_url: "https://www.amazon.com/Simple-Rules-Thrive-Complex-World/dp/0544705203"
+publication_type: "book"
 tags:
   - book
   - sleep
-attribution: "Donald Sull & Kathleen Eisenhardt"
-source_type: "book"
-source:
-source_url:
-main_source: "Simple Rules: How to Thrive in a Complex World"
-main_source_url: "https://www.amazon.com/Simple-Rules-Thrive-Complex-World/dp/0544705203"
 ---
 
 1\. Get up at the same time every morning<br/>

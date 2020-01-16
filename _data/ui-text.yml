@@ -21,7 +21,7 @@ en: &DEFAULT_EN
   share_on_label             : "Share on"
   meta_label                 :
   tags_label                 : "Tags:"
-  attribution_label          : "Source:"
+  attribution_label          : "Publication:"
   categories_label           : "Category:"
   date_label                 : "Created:"
   comments_label             : "Leave a comment"
