@@ -127,8 +127,18 @@ i {
   color:white;
 }
 
-.ideas-collected {
+.miniver {
   font-family: 'Miniver', cursive;
   font-weight: bold;
   color: #0092ca;
+}
+
+#category-font {
+  font-size: $type-size-5;
+  text-decoration: none;
+  color: #0092ca;
+}
+
+#date-font {
+  font-size: $type-size-8;
 }
