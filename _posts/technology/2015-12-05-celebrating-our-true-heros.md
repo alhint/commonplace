@@ -1,5 +1,5 @@
 ---
-title: "Name a famous scientist"
+title: "Celebrating our true heros"
 date: "2015-12-05"
 publication: "SlingShot"
 attribution: "Dean Kamen"

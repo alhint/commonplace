@@ -1,5 +1,5 @@
 ---
-title: "Leisure is important"
+title: "Don't forget to relax"
 date: "2016-12-26"
 attribution: "Cal Newport"
 publication: "Deep Work: Rules for Focused Success in a Distracted World"

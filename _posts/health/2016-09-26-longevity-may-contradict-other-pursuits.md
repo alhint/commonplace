@@ -1,5 +1,5 @@
 ---
-title: "Pursuit of size and strength"
+title: "Longevity may contradict other pursuits"
 created_at: "2016-09-26"
 attribution: "Dominic D’Agostino"
 publication: "The Tim Ferriss Show"

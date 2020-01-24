@@ -1,5 +1,5 @@
 ---
-title: "3D printing humans"
+title: "How to make humans from scratch"
 created_at: "2015-12-17"
 attribution: "David Deutsch"
 publication: "Making Sense with Sam Harris"

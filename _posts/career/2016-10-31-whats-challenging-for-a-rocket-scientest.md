@@ -1,5 +1,5 @@
 ---
-title: "Rocket science"
+title: "What's challenging for a rocket scientist?"
 date: "2016-10-31"
 attribution: "Dave Camarillo"
 publication: "The Tim Ferriss Show"

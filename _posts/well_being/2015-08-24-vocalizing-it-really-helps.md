@@ -1,5 +1,5 @@
 ---
-title: "Three options"
+title: "Vocalizing it really helps"
 created_at: "2015-08-24"
 attribution: "Naval Ravikant"
 publication: "The Tim Ferriss Show"

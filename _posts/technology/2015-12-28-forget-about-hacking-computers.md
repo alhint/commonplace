@@ -1,5 +1,5 @@
 ---
-title: "Hacking biology"
+title: "Forget about hacking computers"
 created_at: "2015-12-28"
 attribution: "Bill Gates"
 publication_type: "article"

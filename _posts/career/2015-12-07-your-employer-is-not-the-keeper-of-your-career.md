@@ -1,5 +1,5 @@
 ---
-title: "Keeper of your career"
+title: "Your employer is not the keeper of your career"
 date: "2015-12-07"
 attribution: "Reid Hoffman"
 publication: "The Network Man: Reid Hoffman’s Big Idea"

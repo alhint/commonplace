@@ -1,5 +1,5 @@
 ---
-title: "Someone else's authority"
+title: "Focus on showing your work"
 date: "2016-01-16"
 attribution: "Jack Dorsey"
 publication: "Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity"

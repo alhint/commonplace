@@ -1,5 +1,5 @@
 ---
-title: "Contract to be unhappy"
+title: "Mind your desires"
 created_at: "2015-08-24"
 attribution: "Naval Ravikant"
 publication: "The Tim Ferriss Show"

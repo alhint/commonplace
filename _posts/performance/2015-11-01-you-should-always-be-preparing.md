@@ -1,5 +1,5 @@
 ---
-title: "Catalog your learning"
+title: "You should always be preparing"
 date: "2015-11-01"
 attribution: "Jonathan Milligan"
 publication: "A Simple Guide to Indexing the Books You Read for Evernote"

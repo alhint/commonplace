@@ -1,5 +1,5 @@
 ---
-title: "System for storing ideas"
+title: "Why record bad ideas?"
 date: "2019-08-07"
 attribution: "David Allen"
 publication: "Getting Things Done: The Art of Stress-Free Productivity"

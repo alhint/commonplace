@@ -1,5 +1,5 @@
 ---
-title: "Swimming as a productivity tool"
+title: "Isolation can boost productivity"
 created_at: "2015-12-20"
 attribution: "Robert Greene"
 publication: "23 Lessons I Learned From Robert Greene On Strategy, Mastery And Power"

@@ -1,5 +1,5 @@
 ---
-title: "An interview question for management"
+title: "Get ahead of failure"
 created_at: "2019-07-23"
 attribution: "Lilly Dobreva"
 publication: "The Best Question to Ask in Interviews"

@@ -1,5 +1,5 @@
 ---
-title: "Breakfast will be good"
+title: "Think about breakfast"
 date: "2015-11-19"
 attribution: "Barbara Oakley"
 publication: "A Mind For Numbers: How to Excel at Math and Science"

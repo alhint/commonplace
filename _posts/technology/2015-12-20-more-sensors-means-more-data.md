@@ -1,5 +1,5 @@
 ---
-title: "Perfect knowledge"
+title: "More sensors means more data"
 created_at: "2015-12-20"
 attribution: "Peter Diamandis"
 publication: "The World in 2025: 8 Predictions for the Next 10 Years"

@@ -1,5 +1,5 @@
 ---
-title: "At the end of the day"
+title: "You get to decide"
 created_at: "2015-03-30"
 attribution: "Amanda Palmer"
 publication: "The Tim Ferriss Show"
