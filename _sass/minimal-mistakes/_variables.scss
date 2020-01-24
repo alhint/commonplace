@@ -15,7 +15,11 @@ $indent-var: 1.3em !default;
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
 // $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "Arial", sans-serif !default;
-$sans-serif: "Lato", Arial, sans-serif !default;
+// $sans-serif: 'Raleway', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "Arial", sans-serif !default;
+// $sans-serif: 'Oxygen', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "Arial", sans-serif !default;
+$sans-serif: 'Zilla Slab', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "Arial", sans-serif !default;
+
+// $sans-serif: 'Merriweather Sans', sans-serif;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */

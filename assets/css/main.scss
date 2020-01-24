@@ -123,8 +123,33 @@ i {
   color: #333333;
 }
 
+.icon-discogs:before {
+  content: "\e907";
+  margin-left: 0.15em;
+  margin-right: 0.15em;
+  color: #333333;
+}
+
+#move-icon {
+  margin-left: 0.15em;
+  margin-right: 0.2em;
+}
+
+#move-icon-article {
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+}
+
 #brightness:before {
   color:white;
+}
+
+#no-space {
+  margin-right: 1px;
+}
+
+#line-spacing {
+  margin-bottom: 0.3em;
 }
 
 .miniver {
@@ -148,6 +173,6 @@ i {
   font-size: $type-size-8;
 }
 
-#theme_color:after {
+#theme_color {
   color: #0092ca;
 }

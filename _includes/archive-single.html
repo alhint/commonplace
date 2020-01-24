@@ -25,9 +25,14 @@
     {% endif %}
 
     {% if page.layout == "category" %}
-      <h2 class="archive__item-title" itemprop="headline">
-        <a href="{{ post.url | relative_url }}" rel="permalink" id="homepage_post_header_color">{{ title }}</a>
-      </h2>
+    <div>
+        <time id= "date-font" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %e, %Y" }}</time>
+    </div>
+    <h2 class="archive__item-title" itemprop="headline" id="homepage_post_header">
+      <div id="homepage_post_header_post_title">
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+      </div>&#32;
+    </h2>
     {% else %}
       <div>
           <a class="miniver" id="category-font" href="{{ post.category | slugify | relative_url }}" >{{ post.category }}</a>{% unless forloop.last %}<span class="sep"></span>{% endunless %}
@@ -54,25 +59,12 @@
 
     <p class="page__meta" align="left" id="excerpt_attribution" itemprop="description">
 
-      <!-- {% if post.publication_type == "podcast" %}
-        <i class="fas fa-podcast" aria-hidden="true"></i>
-      {% elsif post.publication_type == "book" %}
-        <i class="fas fa-book-open" aria-hidden="true"></i>
-      {% elsif post.publication_type == "article" %}
-        <i class="far fa-newspaper" aria-hidden="true"></i>
-      {% elsif post.publication_type == "book" %}
-        <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i>
-      {% elsif post.publication_type == "movie" %}
-        <i class="fas fa-film" aria-hidden="true"></i>
-      {% endif %} -->
-
       {% if post.attribution %}
-          {{ post.attribution | markdownify | strip_html }} -
+          {{ post.attribution | markdownify | strip_html }}
       {% endif %}
 
       {% if post.publication %}
-        <!-- <a href="{{ post.publication_url | relative_url }}" rel="permalink">{{ post.publication }}</a> -->
-        {{ post.publication }}
+        - <a href="{{ post.publication_url }}" rel="external" id="theme_color"> {{ post.publication }}</a>
       {% endif %}
     </p>
   </article>

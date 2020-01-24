@@ -6,29 +6,32 @@
 {% endcase %}
 
 {% if page.publication %}
-  <p class="page__taxonomy">
-    <strong>
-      {% if page.publication_type == "podcast" %}
-        <i class="fas fa-podcast" aria-hidden="true"></i>
-      {% elsif page.publication_type == "book" %}
-        <i class="fas fa-book-open" aria-hidden="true"></i>
-      {% elsif page.publication_type == "article" %}
-        <i class="far fa-newspaper" aria-hidden="true"></i>
-      {% elsif page.publication_type == "book" %}
-        <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i>
-      {% elsif page.publication_type == "movie" %}
-        <i class="fas fa-film" aria-hidden="true"></i>
-      {% endif %}
-
-      {% if page.publication_type == "article" %} Read in:
-      {% elsif page.publication_type == "book" %} Read in:
-      {% elsif page.publication_type == "podcast" %} Heard on:
-      {% elsif page.publication_type == "documentary" %} Seen on:
-      {% endif %}
+  <p class="page__taxonomy" id="line-spacing">
+    <strong id="no-space">
+      <!-- <span id="move-icon"> -->
+        {% if page.publication_type == "podcast" %}
+          <i class="fas fa-podcast" aria-hidden="true" id="move-icon"></i>
+        {% elsif page.publication_type == "book" %}
+          <i class="fas fa-book" aria-hidden="true" id="move-icon"></i>
+        {% elsif page.publication_type == "article" %}
+          <i class="fas fa-file-alt" aria-hidden="true" id="move-icon-article"></i>
+        {% elsif page.publication_type == "book" %}
+          <i class="fas fa-fw fa-calendar-alt" aria-hidden="true" id="move-icon"></i>
+        {% elsif page.publication_type == "movie" %}
+          <i class="fas fa-film" aria-hidden="true"></i>
+        {% endif %}
+      <!-- </span> -->
+      <span>
+        {% if page.publication_type == "article" %} Article:
+        {% elsif page.publication_type == "book" %} Book:
+        {% elsif page.publication_type == "podcast" %} Podcast:
+        {% elsif page.publication_type == "documentary" %} Documentary:
+        {% endif %}
+      </span>
     </strong>
 
     <span>
-      <a href="{{ page.publication_url }}" id="source_attribution" class="source_link">{{ page.publication }}</a>
+      &#160;&#160;<a href="{{ page.publication_url }}" id="theme_color">{{ page.publication }}</a>
     </span>
   </p>
 {% endif %}

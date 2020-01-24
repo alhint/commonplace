@@ -23,7 +23,7 @@ en: &DEFAULT_EN
   tags_label                 : "Tags:"
   attribution_label          : "Publication:"
   categories_label           : "Category:"
-  date_label                 : "Collected On:"
+  date_label                 : "Collected:"
   comments_label             : "Leave a comment"
   comments_title             : "Comments"
   more_label                 : "Learn more"
