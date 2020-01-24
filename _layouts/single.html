@@ -48,7 +48,7 @@ layout: default
           {{ content }}
         </div>
 
-        <div class="test" align="right">
+        <div class="test" align="left">
           - {{ page.attribution }}
         </div>
 
@@ -60,22 +60,9 @@ layout: default
 
         <div class="page__meta">
 
-          <!-- old format with source + main source-->
-          <!-- {% if page.source_title %}
-          <div align="right"> <p class="source_link"><a href="{{ page.source_article_url }}">{{ page.source_title }}</a></p></div>
-          {% endif %}
-
-          <div align="right">
-            <p id="source_attribution" class="source_link">
-              {% if page.source %}<a href="{{ page.source_url }}"><b>{{ page.source }}</b></a>
-              {% elsif page.main_source %}<a href="{{ page.main_source_url }}"><b>{{ page.main_source }}</b></a>
-              {% endif %}
-            </p>
-          </div> -->
-
           <!-- publication -->
           {% if page.publication !=nil %}
-          <div align="right">
+          <div align="left">
             <span id="source_attribution">
               {% if page.publication_type == "article" %}<div align="right">Read in</div>
               {% elsif page.publication_type == "book" %}<div align="right">Read in</div>
@@ -90,26 +77,23 @@ layout: default
           </div>
           {% endif %}
 
-          <!-- date -->
-          {% if page.date %}
-          <div align="right">
-            <p class="page__date">
-              <!-- <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> -->
-              Collected on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %e, %Y" }}</time>
-            </p>
-          </div>
-          {% endif %}
-
         </div>
       </section>
 
       <footer class="page__meta">
+
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
 
-        <!-- tags -->
         {% include page__taxonomy.html %}
+
+        {% if page.date %}
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+        {% endif %}
+
+        {% include page__publication.html %}
+
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}

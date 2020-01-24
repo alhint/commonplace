@@ -137,8 +137,17 @@ i {
   font-size: $type-size-5;
   text-decoration: none;
   color: #0092ca;
+
+  &:hover {
+    color: mix(#000, #0092ca, 25%);
+    outline: 0;
+  }
 }
 
 #date-font {
   font-size: $type-size-8;
+}
+
+#theme_color:before {
+  color: #0092ca;
 }

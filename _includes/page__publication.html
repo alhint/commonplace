@@ -1,0 +1,34 @@
+{% case site.category_archive.type %}
+  {% when "liquid" %}
+    {% assign path_type = "#" %}
+  {% when "jekyll-archives" %}
+    {% assign path_type = nil %}
+{% endcase %}
+
+{% if page.publication %}
+  <p class="page__taxonomy">
+    <strong>
+      {% if page.publication_type == "podcast" %}
+        <i class="fas fa-podcast" aria-hidden="true"></i>
+      {% elsif page.publication_type == "book" %}
+        <i class="fas fa-book-open" aria-hidden="true"></i>
+      {% elsif page.publication_type == "article" %}
+        <i class="far fa-newspaper" aria-hidden="true"></i>
+      {% elsif page.publication_type == "book" %}
+        <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i>
+      {% elsif page.publication_type == "movie" %}
+        <i class="fas fa-film" aria-hidden="true"></i>
+      {% endif %}
+
+      {% if page.publication_type == "article" %} Read in:
+      {% elsif page.publication_type == "book" %} Read in:
+      {% elsif page.publication_type == "podcast" %} Heard on:
+      {% elsif page.publication_type == "documentary" %} Seen on:
+      {% endif %}
+    </strong>
+
+    <span>
+      <a href="{{ page.publication_url }}" class="theme_color">{{ page.publication }}</a>
+    </span>
+  </p>
+{% endif %}

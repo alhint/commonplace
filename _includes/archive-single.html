@@ -31,7 +31,7 @@
     {% else %}
       <div>
           <a class="miniver" id="category-font" href="{{ post.category | slugify | relative_url }}" >{{ post.category }}</a>{% unless forloop.last %}<span class="sep"></span>{% endunless %}
-          <time id= "date-font" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %e, %Y" }}</time>
+          <time id= "date-font" datetime="{{ post.date | date_to_xmlschema }}">&nbsp;{{ post.date | date: "%B %e, %Y" }}</time>
       </div>
       <h2 class="archive__item-title" itemprop="headline" id="homepage_post_header">
         <div id="homepage_post_header_post_title">
