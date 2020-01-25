@@ -1,5 +1,5 @@
 ---
-title: "Your employer is not the keeper of your career"
+title: "Your employer is not responsible for your career"
 date: "2015-12-07"
 attribution: "Reid Hoffman"
 publication: "The Network Man: Reid Hoffman’s Big Idea"
@@ -9,4 +9,4 @@ tags:
   - networking
 ---
 
-The keeper of your career will be not your employer but your personal network - so you’d better put a lot of effort into making it as extensive and as vital as possible.
+The keeper of your career will not be your employer but your personal network - so you’d better put a lot of effort into making it as extensive and as vital as possible.
