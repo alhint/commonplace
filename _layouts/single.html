@@ -47,10 +47,12 @@ layout: default
         <div>
           {{ content }}
         </div>
-
-        <div class="test" align="left">
-          - {{ page.attribution }}
-        </div>
+      
+        {% if page.attribution %}
+          <div class="test" align="left">
+            - {{ page.attribution }}
+          </div>
+        {% endif %}
 
         {% if page.link %}
         <div>
